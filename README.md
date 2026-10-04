@@ -5,6 +5,7 @@
 </p>
 
 <p align="center">
+  <a href="https://www.bilibili.com/video/BV1qMHr6eEyy"><img src="https://img.shields.io/badge/Bilibili-实机演示视频-fb7299?style=flat-square&logo=bilibili&logoColor=white" alt="Bilibili"></a>
   <a href="https://ai-passport.folotoy.cn/plays/909/?v=1899-2"><img src="https://img.shields.io/badge/FoloToy%20Community-一键免编译烧录-blue?style=flat-square" alt="FoloToy Community"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="License"></a>
   <img src="https://img.shields.io/badge/Hardware-ESP32--C3-blue?style=flat-square" alt="ESP32-C3">
@@ -17,7 +18,7 @@
 
 本项目是专为 **FoloToy AI Passport**（ESP32-C3 核心的 99 元随身透明工牌）定制开发的纯离线版《world.execute(me);》专属多媒体播放器固件。
 
-灵感源于 B 站 UP 主 `@MisakaZentai` 的二创 PV 代码，将 Mili 的经典神作《world.execute(me);》与“赛博大肥鱼”（DeepSeek 娘）形象移植进这台微型嵌入式设备中。
+灵感源于 B 站 UP 主 `@西西弗斯的风车`（`@MisakaZentai`）的二创 PV 代码，将 Mili 的经典神作《world.execute(me);》与“赛博大肥鱼”（DeepSeek 娘）形象移植进这台微型嵌入式设备中。
 
 - **无需联网**：纯离线运行，开机即用，零配置要求。
 - **开机即达**：开机直出赛博朋克大肥鱼 HUD 封面（240×320 竖屏待机）。
@@ -28,6 +29,8 @@
 ---
 
 ## 📷 实机展示 (Hardware Showcase)
+
+> 📺 **B 站实机效果视频**：👉 [【ESP32】我把大肥鱼眼中的 world.execute(me); 装进了99块钱的工牌里 (BV1qMHr6eEyy)](https://www.bilibili.com/video/BV1qMHr6eEyy)
 
 <p align="center">
   <img src="docs/images/desk_cover.jpg" alt="桌面待机封面" width="48%">
@@ -116,6 +119,6 @@ idf.py flash monitor
 本固件与项目为个人业余兴趣制作的**非商用硬件同人技术探索**，严禁用于任何商业牟利。
 
 - **音乐原作**：Mili - 《world.execute(me);》
-- **原二创 PV / 代码灵感**：UP 主 `@MisakaZentai`（B 站视频：`BV1xCai6aE9g` / GitHub：`MisakaZentai/world-execute-me-dsh-pv`）
+- **原二创 PV / 代码灵感**：B 站 UP 主 `@西西弗斯的风车`（原视频：[BV1xCai6aE9g](https://www.bilibili.com/video/BV1xCai6aE9g) / GitHub：[`MisakaZentai/world-execute-me-dsh-pv`](https://github.com/MisakaZentai/world-execute-me-dsh-pv)）
 - **大肥鱼角色形象**：溟月 © 上善无形 / 女仆版 ZipZipPipe / 立绘 Small-tailqwq（遵循 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 协议）
 - **硬件平台**：[FoloToy AI Passport](https://ai-passport.folotoy.cn) (ESP32-C3)
