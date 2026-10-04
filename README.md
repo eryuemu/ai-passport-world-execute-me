@@ -32,6 +32,19 @@
 
 > 📺 **B 站实机效果视频**：👉 [【ESP32】我把大肥鱼眼中的 world.execute(me); 装进了99块钱的工牌里 (BV1qMHr6eEyy)](https://www.bilibili.com/video/BV1qMHr6eEyy)
 
+### 🎞️ 动态运行演示 (Dynamic Demos)
+
+<p align="center">
+  <img src="docs/images/clip_01_boot_handheld.gif" alt="开机就绪与待机封面" width="48%">
+  <img src="docs/images/clip_02_waveform_galaxy.gif" alt="音频波形与星空粒子" width="48%">
+</p>
+<p align="center">
+  <img src="docs/images/clip_03_countdown_execution.gif" alt="倒计时处刑 Execution" width="48%">
+  <img src="docs/images/clip_04_finish_cover.gif" alt="播放完毕返回封面" width="48%">
+</p>
+
+### 📸 实机现场实拍 (Static Photos)
+
 <p align="center">
   <img src="docs/images/desk_cover.jpg" alt="桌面待机封面" width="48%">
   <img src="docs/images/desk_playback.jpg" alt="桌面横屏音画同步播放" width="48%">
