@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://ai-passport.folotoy.cn/plays/909/?v=1899-2"><img src="https://img.shields.io/badge/FoloToy%20Community-一键免编译烧录-blue?style=flat-square" alt="FoloToy Community"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="License"></a>
-  <img src="https://img.shields.io/badge/Hardware-ESP32--S3-orange?style=flat-square" alt="ESP32-S3">
+  <img src="https://img.shields.io/badge/Hardware-ESP32--C3-blue?style=flat-square" alt="ESP32-C3">
   <img src="https://img.shields.io/badge/Mode-Pure%20Offline-brightgreen?style=flat-square" alt="Offline">
 </p>
 
@@ -15,7 +15,7 @@
 
 ## 📖 项目简介 (Introduction)
 
-本项目是专为 **FoloToy AI Passport**（ESP32-S3 核心的 99 元随身透明工牌）定制开发的纯离线版《world.execute(me);》专属多媒体播放器固件。
+本项目是专为 **FoloToy AI Passport**（ESP32-C3 核心的 99 元随身透明工牌）定制开发的纯离线版《world.execute(me);》专属多媒体播放器固件。
 
 灵感源于 B 站 UP 主 `@MisakaZentai` 的二创 PV 代码，将 Mili 的经典神作《world.execute(me);》与“赛博大肥鱼”（DeepSeek 娘）形象移植进这台微型嵌入式设备中。
 
@@ -68,7 +68,7 @@
 如果你希望自行修改代码或本地构建固件：
 
 ### 1. 环境准备
-- [ESP-IDF v5.4+](https://docs.espressif.com/projects/esp-idf/zh_CN/latest/esp32s3/get-started/)
+- [ESP-IDF v5.4+](https://docs.espressif.com/projects/esp-idf/zh_CN/latest/esp32c3/get-started/)
 - 确保已正确配置 `IDF_PATH` 与工具链环境变量。
 
 ### 2. 克隆仓库
@@ -92,7 +92,7 @@ idf.py flash monitor
 
 ```text
 ├── CMakeLists.txt              # 顶层构建配置
-├── sdkconfig.defaults          # ESP32-S3 默认板级配置 (PSRAM、Flash、时钟)
+├── sdkconfig.defaults          # ESP32-C3 默认板级配置 (8MB Flash、无 PSRAM、时钟)
 ├── partitions.csv              # 8MB Flash 专用存储分区表
 ├── components/                 # AI Passport 板级支持包 (BSP: 屏幕/音频/按键/电源)
 ├── main/
@@ -118,4 +118,4 @@ idf.py flash monitor
 - **音乐原作**：Mili - 《world.execute(me);》
 - **原二创 PV / 代码灵感**：UP 主 `@MisakaZentai`（B 站视频：`BV1xCai6aE9g` / GitHub：`MisakaZentai/world-execute-me-dsh-pv`）
 - **大肥鱼角色形象**：溟月 © 上善无形 / 女仆版 ZipZipPipe / 立绘 Small-tailqwq（遵循 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 协议）
-- **硬件平台**：[FoloToy AI Passport](https://ai-passport.folotoy.cn) (ESP32-S3)
+- **硬件平台**：[FoloToy AI Passport](https://ai-passport.folotoy.cn) (ESP32-C3)
